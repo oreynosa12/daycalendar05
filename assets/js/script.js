@@ -6,14 +6,27 @@ $(function () {
 
 
  var now = dayjs()
- console.log(now)
-
- document.getElementById("time").textContent += now .$d;
+//  console.log(now)
 
 
- $(".saveBtn").click(function(){
+setInterval(function () {
+  $("#currentDay").text(dayjs().format("MMM,D,YYYY h:mm:ss"));
+}, 1000);
+
+
+var description = document.querySelector(".description");
+
+$(".saveBtn").click(function() {
   console.log("You clicked me!");
-});
+  // Do something when the save button is clicked
+  var saveBtn = true; // Set the saveBtn variable to true
+  if (saveBtn) {
+    console.log(Event)
+    // Do something if saveBtn is true
+    localStorage.setItem("userId", "userAppointment");
+  }
+}); // Added closing brace for the click event handler function and semicolon to the end of the function call
+
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
@@ -22,7 +35,7 @@ $(function () {
     // time-block containing the button that was clicked? How might the id be
     // useful when saving the description in local storage?
 
-    
+ 
     //
     // TODO: Add code to apply the past, present, or future class to each time
     // block by comparing the id to the current hour. HINTS: How can the id
