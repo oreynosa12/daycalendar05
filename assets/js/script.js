@@ -49,3 +49,21 @@ $(".saveBtn").click(function() {
     //
     // TODO: Add code to display the current date in the header of the page.
   });
+
+
+  let hour9am = $"#hour-9";
+  let hour10am = $"#hour-10";
+  let hour11am = $"#hour-11";
+  let hour12pm = $"#hour-12";
+  let hour1pm = $"#hour-1";
+  let hourm2pm = $"#hour-2";
+  let hour3pm = $"#hour-3";
+  let hour4pm = $"#hour-4";
+  let hour5pm = $"#hour-5";
+  let hourCount =[9,10,11,12,1,2,3,4,5,]
+  let hourArray = [ hour9am, hour10am, hour11am, hour12pm, hour1pm, hour2pm,hour3pm, hour4pm, hour5pm, ]
+  
+  for (let i = 0; i < hourArray.length; i++){
+
+    If (hour<currenTime setToPast;)
+  }
