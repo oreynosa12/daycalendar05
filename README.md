@@ -6,6 +6,8 @@ This is a daily planner for the user to input information into the fields for di
 
 https://oreynosa12.github.io/daycalendar05/
 
+![image](https://user-images.githubusercontent.com/121472588/222039840-168426b4-8410-44fc-b9b2-00a29a1d3e2d.png)
+
 ##Installation:
 
 N/A
